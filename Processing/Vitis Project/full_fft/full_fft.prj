@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="full_fft" location="D:/VitisWorkspace/full_fft" platform="D:/VitisWorkspace/fft_dma/export/fft_dma/fft_dma.xpfm" platformUID="xilinx:minized::0.0(custom)" systemProject="full_fft_system" sysConfig="fft_dma" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="2a209fb9ef2d382afb8295365ada61ae">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1736181974">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1501465551" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

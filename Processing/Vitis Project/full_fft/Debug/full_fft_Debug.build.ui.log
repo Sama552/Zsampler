@@ -1,0 +1,39 @@
+2020-11-10T18:14:59.489944700255-18:14:59 **** Incremental Build of configuration Debug for project full_fft ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/fft_sampler.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/fft_sampler.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -ID:/VitisWorkspace/fft_dma/export/fft_dma/sw/fft_dma/standalone_domain/bspinclude/include -MMD -MP -MF"src/fft_sampler.d" -MT"src/fft_sampler.o" -o "src/fft_sampler.o" "../src/fft_sampler.c"
+000-../src/fft_sampler.c: In function 'fillBuffer':
+000/full_fft/src/fft_sampler.c338-1-1unused variable 'Status' [-Wunused-variable]1-../src/fft_sampler.c:338:6: warning: unused variable 'Status' [-Wunused-variable]
+000-  int Status;
+000-      ^~~~~~
+000-At top level:
+000/full_fft/src/fft_sampler.c608-1-1'DisableIntrSystem' defined but not used [-Wunused-function]1DisableIntrSystem../src/fft_sampler.c:608:13: warning: 'DisableIntrSystem' defined but not used [-Wunused-function]
+000- static void DisableIntrSystem(INTC * IntcInstancePtr,
+000-             ^~~~~~~~~~~~~~~~~
+000/full_fft/src/fft_sampler.c534-1-1'SetupIntrSystem' defined but not used [-Wunused-function]1SetupIntrSystem../src/fft_sampler.c:534:12: warning: 'SetupIntrSystem' defined but not used [-Wunused-function]
+000- static int SetupIntrSystem(INTC * IntcInstancePtr,
+000-            ^~~~~~~~~~~~~~~
+000/full_fft/src/fft_sampler.c161-1-1'Intc' defined but not used [-Wunused-variable]1Intc../src/fft_sampler.c:161:13: warning: 'Intc' defined but not used [-Wunused-variable]
+000- static INTC Intc; /* Instance of the Interrupt Controller */
+000-             ^~~~
+000-'Finished building: ../src/fft_sampler.c'
+000-' '
+000-'Building target: full_fft.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LD:/VitisWorkspace/fft_dma/export/fft_dma/sw/fft_dma/standalone_domain/bsplib/lib -o "full_fft.elf"  ./src/cplx_data.o ./src/dma_accel.o ./src/fft.o ./src/fft_sampler.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: full_fft.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size full_fft.elf  |tee "full_fft.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  79952	  36384	 141072	 257408	  3ed80	full_fft.elf
+000-'Finished building: full_fft.elf.size'
+000-' '
+00255-
+18:15:00 Build Finished (took 888ms)
+

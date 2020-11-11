@@ -1,0 +1,10 @@
+2020-11-10T18:43:23.477506900255-18:43:23 **** Incremental Build of configuration Debug for project circular_buffer ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-make[1]: Nothing to be done for 'main-build'.
+00255-
+18:43:23 Build Finished (took 293ms)
+

@@ -1,0 +1,130 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.47915",
+   "Default View_TopLeft":"-24,807",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.21  2019-05-29 bk=1.5064 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 13 -x 4730 -y 190 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 13 -x 4730 -y 220 -defaultsOSRD
+preplace port iic_rtl_0 -pg 1 -lvl 13 -x 4730 -y 1560 -defaultsOSRD
+preplace port pl_led_g -pg 1 -lvl 13 -x 4730 -y 1840 -defaultsOSRD
+preplace port pl_led_r -pg 1 -lvl 13 -x 4730 -y 1870 -defaultsOSRD
+preplace port pl_sw_1bit -pg 1 -lvl 13 -x 4730 -y 1720 -defaultsOSRD
+preplace port BT_CTS_IN_N -pg 1 -lvl 13 -x 4730 -y 1140 -defaultsOSRD
+preplace port BT_HOST_WAKE -pg 1 -lvl 0 -x -200 -y 1110 -defaultsOSRD
+preplace port BT_REG_ON -pg 1 -lvl 13 -x 4730 -y 1170 -defaultsOSRD
+preplace port BT_RTS_OUT_N -pg 1 -lvl 0 -x -200 -y 1080 -defaultsOSRD
+preplace port BT_RXD_IN -pg 1 -lvl 13 -x 4730 -y 1110 -defaultsOSRD
+preplace port BT_TXD_OUT -pg 1 -lvl 0 -x -200 -y 1050 -defaultsOSRD
+preplace port WL_HOST_WAKE -pg 1 -lvl 0 -x -200 -y 1020 -defaultsOSRD
+preplace port WL_REG_ON -pg 1 -lvl 13 -x 4730 -y 1080 -defaultsOSRD
+preplace port WL_SDIO_CLK -pg 1 -lvl 13 -x 4730 -y 990 -defaultsOSRD
+preplace port WL_SDIO_CMD -pg 1 -lvl 13 -x 4730 -y 1020 -defaultsOSRD
+preplace port data_in_0_0 -pg 1 -lvl 0 -x -200 -y 1440 -defaultsOSRD
+preplace port data_in_1_0 -pg 1 -lvl 0 -x -200 -y 1470 -defaultsOSRD
+preplace port sck_0 -pg 1 -lvl 13 -x 4730 -y 1340 -defaultsOSRD
+preplace portBus WL_SDIO_DAT -pg 1 -lvl 13 -x 4730 -y 1050 -defaultsOSRD
+preplace portBus cs_n_0 -pg 1 -lvl 13 -x 4730 -y 1370 -defaultsOSRD
+preplace inst wireless_mgr_0 -pg 1 -lvl 12 -x 4330 -y 1000 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 12 -x 4330 -y 1860 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 12 -x 4330 -y 1720 -defaultsOSRD
+preplace inst axi_iic_0 -pg 1 -lvl 12 -x 4330 -y 1580 -defaultsOSRD
+preplace inst bluetooth_uart -pg 1 -lvl 7 -x 2530 -y 1210 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 12 -x 4330 -y 360 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 6 -x 2160 -y 1770 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 5 -x 1830 -y 1590 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 9 -x 3080 -y 1320 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 12 -x 4330 -y 740 -defaultsOSRD
+preplace inst pmod_adc_ad7476a_0 -pg 1 -lvl 12 -x 4330 -y 1350 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 10 -x 3390 -y 1670 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 11 -x 3780 -y 1300 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 8 -x 2820 -y 1680 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 2 -x 670 -y 1330 -defaultsOSRD
+preplace inst axi_gpio_2 -pg 1 -lvl 1 -x 370 -y 1410 -defaultsOSRD
+preplace inst axi_dma_1 -pg 1 -lvl 1 -x 370 -y 1090 -defaultsOSRD
+preplace inst xfft_0 -pg 1 -lvl 4 -x 1330 -y 1120 -defaultsOSRD
+preplace inst sampler_with_stream_0 -pg 1 -lvl 7 -x 2530 -y 1630 -defaultsOSRD
+preplace netloc BT_HOST_WAKE_1 1 0 12 -180J 1270 540 1450 N 1450 N 1450 N 1450 NJ 1450 NJ 1450 NJ 1450 NJ 1450 N 1450 3570J 1030 4010J
+preplace netloc BT_RTS_OUT_N_1 1 0 12 -170J 1220 N 1220 N 1220 960 1230 1550 1010 NJ 1010 NJ 1010 NJ 1010 NJ 1010 N 1010 NJ 1010 4030J
+preplace netloc BT_TXD_OUT_1 1 0 12 -160J 1230 N 1230 N 1230 950 1460 N 1460 NJ 1460 NJ 1460 NJ 1460 NJ 1460 3210 1500 3610J 1520 3980J
+preplace netloc Net 1 12 1 4710J 1020n
+preplace netloc Net1 1 12 1 4700J 1050n
+preplace netloc WL_HOST_WAKE_1 1 0 12 -150J 1260 N 1260 N 1260 N 1260 1560 1020 NJ 1020 NJ 1020 NJ 1020 NJ 1020 N 1020 NJ 1020 4020J
+preplace netloc axi_iic_0_iic2intc_irpt 1 8 5 2950 1940 N 1940 NJ 1940 NJ 1940 4560
+preplace netloc bluetooth_uart_INT 1 7 2 NJ 1270 N
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 13 -130 1330 530 1390 N 1390 990 1390 1550 1470 2010 1470 2370 1770 2680 1580 N 1580 3200 1530 3640 1530 4000 670 4560
+preplace netloc processing_system7_0_FCLK_CLK1 1 7 6 2700J 1070 NJ 1070 3180 1060 NJ 1060 3990J 1210 4600
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 4 9 1590 1080 NJ 1080 NJ 1080 NJ 1080 NJ 1080 3190 1070 NJ 1070 3940 1480 4620
+preplace netloc processing_system7_0_GPIO_O 1 11 2 4050 30 4560
+preplace netloc processing_system7_0_GPIO_T 1 11 2 4040 10 4680
+preplace netloc processing_system7_0_SDIO0_CLK 1 11 2 4060 20 4670
+preplace netloc processing_system7_0_SDIO0_CMD_O 1 11 2 4070 40 4580
+preplace netloc processing_system7_0_SDIO0_CMD_T 1 11 2 4080 50 4570
+preplace netloc processing_system7_0_SDIO0_DATA_O 1 11 2 4090 680 4580
+preplace netloc processing_system7_0_SDIO0_DATA_T 1 11 2 4100 800 4590
+preplace netloc rst_ps7_0_50M_interconnect_aresetn 1 5 1 N 1610
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 0 12 -120 1490 N 1490 N 1490 N 1490 N 1490 2000 1490 2380 1780 2690 1590 N 1590 3220 1540 3580 1570 3930
+preplace netloc wireless_mgr_0_BT_CTS_IN_N 1 12 1 4700J 1120n
+preplace netloc wireless_mgr_0_BT_REG_ON 1 12 1 4680J 1140n
+preplace netloc wireless_mgr_0_BT_RXD_IN 1 12 1 4700J 1100n
+preplace netloc wireless_mgr_0_GPIO_to_Zynq 1 12 1 4690 130n
+preplace netloc wireless_mgr_0_SDIO_CDN 1 12 1 4650 430n
+preplace netloc wireless_mgr_0_SDIO_CLK_FB 1 12 1 4680 290n
+preplace netloc wireless_mgr_0_SDIO_CMD_to_Zynq 1 12 1 4670 330n
+preplace netloc wireless_mgr_0_SDIO_DATA_to_Zynq 1 12 1 4660 370n
+preplace netloc wireless_mgr_0_SDIO_WP 1 12 1 4640 450n
+preplace netloc wireless_mgr_0_UART_CTS 1 7 6 NJ 1170 NJ 1170 3220 1090 NJ 1090 3930J 1220 4560
+preplace netloc wireless_mgr_0_UART_RTS 1 7 5 2690J 1000 NJ 1000 N 1000 NJ 1000 N
+preplace netloc wireless_mgr_0_UART_RX 1 7 6 NJ 1210 NJ 1210 3230 1100 3640J 1040 3950J 1490 4610
+preplace netloc wireless_mgr_0_UART_TX 1 7 5 2670J 990 NJ 990 N 990 NJ 990 3950
+preplace netloc wireless_mgr_0_WL_REG_ON 1 12 1 NJ 1080
+preplace netloc wireless_mgr_0_WL_SDIO_CLK 1 12 1 4700J 990n
+preplace netloc xlconcat_0_dout 1 9 3 3200 400 NJ 400 N
+preplace netloc xlconstant_1_dout 1 12 1 4570 490n
+preplace netloc pmod_adc_ad7476a_0_adc_0_data 1 6 6 2390 1810 NJ 1810 NJ 1810 N 1810 NJ 1810 4080
+preplace netloc data_in_0_0_1 1 0 12 -140J 1500 N 1500 N 1500 N 1500 1580 1480 NJ 1480 NJ 1480 NJ 1480 NJ 1480 3180 1510 NJ 1510 4060J
+preplace netloc data_in_1_0_1 1 0 12 -170J 1510 N 1510 N 1510 N 1510 1570 1060 NJ 1060 NJ 1060 NJ 1060 NJ 1060 3170 1050 NJ 1050 3970J
+preplace netloc pmod_adc_ad7476a_0_sck 1 12 1 NJ 1340
+preplace netloc pmod_adc_ad7476a_0_cs_n 1 12 1 4700J 1360n
+preplace netloc axi_dma_0_mm2s_introut 1 8 3 2970 1430 N 1430 3560
+preplace netloc pmod_adc_ad7476a_0_adc_1_data 1 6 6 2400 1790 NJ 1790 NJ 1790 N 1790 NJ 1790 4100
+preplace netloc axi_dma_0_s2mm_introut 1 8 3 2960 1440 N 1440 3550
+preplace netloc axi_dma_1_mm2s_introut 1 1 8 560J 1270 NJ 1270 N 1270 1540 1350 NJ 1350 NJ 1350 NJ 1350 N
+preplace netloc axi_dma_1_s2mm_introut 1 1 8 NJ 1150 NJ 1150 970 1370 N 1370 NJ 1370 NJ 1370 NJ 1370 N
+preplace netloc axi_gpio_2_gpio_io_o 1 1 3 550J 1140 750 1130 990
+preplace netloc xlconstant_0_dout 1 2 2 760 1140 N
+preplace netloc processing_system7_0_DDR 1 12 1 NJ 190
+preplace netloc axi_gpio_1_GPIO 1 12 1 NJ 1720
+preplace netloc processing_system7_0_M_AXI_GP0 1 5 8 2020 1090 NJ 1090 NJ 1090 NJ 1090 3210 1080 NJ 1080 3960J 1200 4630
+preplace netloc axi_iic_0_IIC 1 12 1 NJ 1560
+preplace netloc axi_dma_1_M_AXIS_MM2S 1 1 3 NJ 1070 N 1070 960
+preplace netloc axi_dma_0_M_AXI_S2MM 1 10 1 3620 1170n
+preplace netloc ps7_0_axi_periph_M02_AXI 1 6 6 2350 1760 NJ 1760 NJ 1760 3230 1550 3570J 1560 NJ
+preplace netloc axi_dma_1_M_AXI_MM2S 1 1 10 NJ 1030 NJ 1030 990 1020 1530 1030 NJ 1030 NJ 1030 NJ 1030 NJ 1030 N 1030 3550
+preplace netloc xfft_0_M_AXIS_DATA 1 0 5 -110 1210 NJ 1210 NJ 1210 980 1220 1530
+preplace netloc ps7_0_axi_periph_M06_AXI 1 0 7 -110 1250 NJ 1250 NJ 1250 N 1250 N 1250 NJ 1250 2300
+preplace netloc axi_dma_1_M_AXI_S2MM 1 1 10 560J 1020 NJ 1020 960 1010 1540 1040 NJ 1040 NJ 1040 NJ 1040 NJ 1040 N 1040 3630
+preplace netloc axi_dma_0_M_AXI_MM2S 1 10 1 3600 1150n
+preplace netloc axis_data_fifo_0_M_AXIS 1 8 2 2940 1640 N
+preplace netloc axi_gpio_0_GPIO2 1 12 1 NJ 1870
+preplace netloc ps7_0_axi_periph_M03_AXI 1 6 1 2320 1180n
+preplace netloc ps7_0_axi_periph_M04_AXI 1 0 7 -140 1240 NJ 1240 NJ 1240 N 1240 N 1240 NJ 1240 2310
+preplace netloc ps7_0_axi_periph_M00_AXI 1 6 6 2340 1840 NJ 1840 NJ 1840 N 1840 NJ 1840 NJ
+preplace netloc ps7_0_axi_periph_M07_AXI 1 6 1 2330 1570n
+preplace netloc processing_system7_0_FIXED_IO 1 12 1 4700J 210n
+preplace netloc axi_mem_intercon_M00_AXI 1 11 1 3920 340n
+preplace netloc ps7_0_axi_periph_M01_AXI 1 6 6 2360 1750 2670J 1570 NJ 1570 3180 1520 3590J 1540 3950J
+preplace netloc axi_gpio_0_GPIO 1 12 1 4640J 1840n
+preplace netloc sampler_with_stream_0_M00_AXIS 1 7 1 2660 1630n
+preplace netloc ps7_0_axi_periph_M05_AXI 1 6 4 N 1800 2700J 1600 NJ 1600 3180
+levelinfo -pg 1 -200 370 670 930 1330 1830 2160 2530 2820 3080 3390 3780 4330 4730
+pagesize -pg 1 -db -bbox -sgen -360 -10 4900 2030
+"
+}
+{
+   "da_axi4_cnt":"16",
+   "da_board_cnt":"1",
+   "da_bram_cntlr_cnt":"1",
+   "da_clkrst_cnt":"2"
+}

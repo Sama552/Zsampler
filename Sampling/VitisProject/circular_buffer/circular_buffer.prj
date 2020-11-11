@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="circular_buffer" location="D:/VitisWorkspace/circular_buffer" platform="D:/VitisWorkspace/stream_sampler/export/stream_sampler/stream_sampler.xpfm" platformUID="xilinx:minized::0.0(custom)" systemProject="circular_buffer_system" sysConfig="stream_sampler" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="ed1f649148d00e2325a2b410612c12d5">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1133705098">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.40011485" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER sampler_with_stream
+	OPTION supported_peripherals = (sampler_with_stream);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = sampler_with_stream;
+END DRIVER
